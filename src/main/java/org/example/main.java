@@ -15,8 +15,6 @@ import java.io.File;
 import java.io.IOException;
 import java.util.*;
 import java.util.concurrent.ExecutionException;
-import java.util.concurrent.TimeUnit;
-import java.util.concurrent.TimeoutException;
 
 
 public class main {
@@ -127,7 +125,6 @@ public class main {
                         diffBetweenStates.add(diff);
                     });
                     // remove modify from currState => currState will contain only add object if it has
-                    if(entriesDiffering.size() == 0) {
                         if(mapDiff.entriesOnlyOnLeft().size() > 0) {
                             mapDiff.entriesOnlyOnLeft().forEach((k,v) -> {
                                 LinkedHashMap<String,Object> diff = new LinkedHashMap<>();
@@ -150,7 +147,6 @@ public class main {
                                 diffBetweenStates.add(diff);
                             });
                         }
-                    }
                     currState.remove(j);
                     j--;
                     isContain = true;
@@ -182,7 +178,7 @@ public class main {
 
         Properties config = new Properties();
         config.put(AdminClientConfig.BOOTSTRAP_SERVERS_CONFIG, "localhost:19092,localhost:19091");
-       // config.put(AdminClientConfig.CLIENT_ID_CONFIG, "test-client-2");
+        config.put(AdminClientConfig.CLIENT_ID_CONFIG, "test-client-2");
         AdminClient admin = AdminClient.create(config);
 
         List<LinkedHashMap<String,Object>> listMapCurrentBroker = new ArrayList<>();

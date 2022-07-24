@@ -1,13 +1,13 @@
 [ {
-  "change" : "Topic_Config",
-  "action" : "ADD",
-  "value" : "{Topic=test, compression.type=producer, confluent.tier.cleaner.compact.min.efficiency=0.5, confluent.value.schema.validation=false, leader.replication.throttled.replicas=, confluent.key.subject.name.strategy=io.confluent.kafka.serializers.subject.TopicNameStrategy, message.downconversion.enable=true, min.insync.replicas=1, segment.jitter.ms=0, confluent.tier.cleaner.enable=false, cleanup.policy=delete, flush.ms=9223372036854775807, confluent.tier.local.hotset.ms=86400000, follower.replication.throttled.replicas=, confluent.tier.local.hotset.bytes=-1, confluent.value.subject.name.strategy=io.confluent.kafka.serializers.subject.TopicNameStrategy, segment.bytes=1073741824, retention.ms=604800000, flush.messages=9223372036854775807, confluent.tier.enable=false, confluent.tier.segment.hotset.roll.min.bytes=104857600, confluent.segment.speculative.prefetch.enable=false, message.format.version=3.0-IV1, max.compaction.lag.ms=9223372036854775807, confluent.tier.cleaner.compact.segment.min.bytes=20971520, file.delete.delay.ms=60000, max.message.bytes=1048588, confluent.tier.cleaner.dual.compaction=false, min.compaction.lag.ms=0, message.timestamp.type=CreateTime, preallocate=false, confluent.placement.constraints=, min.cleanable.dirty.ratio=0.5, index.interval.bytes=4096, unclean.leader.election.enable=false, retention.bytes=-1, delete.retention.ms=86400000, confluent.tier.cleaner.min.cleanable.ratio=0.75, confluent.prefer.tier.fetch.ms=-1, confluent.key.schema.validation=false, segment.ms=604800000, message.timestamp.difference.max.ms=9223372036854775807, segment.index.bytes=10485760}"
+  "change" : "Broker_Config",
+  "unique_key" : "BROKER:1",
+  "modify_key" : "sasl.oauthbearer.jwks.endpoint.refresh.ms",
+  "prev_Value" : "3",
+  "curr_Value" : "3600000"
 }, {
-  "change" : "Topic",
+  "change" : "Broker_Config",
   "action" : "ADD",
-  "value" : "{name=test, id=vY4U7VOtTTuZ1lnkXxFfyw, internal=false}"
-}, {
-  "change" : "Partition",
-  "action" : "ADD",
-  "value" : "{Topic=test, partition=0, leader=localhost:19091 (id: 1 rack: r1), replicas=[localhost:19091 (id: 1 rack: r1)], isr=[localhost:19091 (id: 1 rack: r1)]}"
+  "unique_key" : "BROKER:1",
+  "add_key" : "remote.log.metadata.manager.listener.name",
+  "add_value" : null
 } ]
