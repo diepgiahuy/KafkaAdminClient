@@ -1,0 +1,451 @@
+[ {
+  "Topic" : "connect-configs",
+  "partition" : "0",
+  "leader" : "localhost:19091 (id: 1 rack: r1)",
+  "replicas" : "[localhost:19091 (id: 1 rack: r1), localhost:19092 (id: 2 rack: r2)]",
+  "isr" : "[localhost:19092 (id: 2 rack: r2), localhost:19091 (id: 1 rack: r1)]"
+}, {
+  "Topic" : "WIKIPEDIABOT",
+  "partition" : "3",
+  "leader" : "localhost:19092 (id: 2 rack: r2)",
+  "replicas" : "[localhost:19092 (id: 2 rack: r2), localhost:19091 (id: 1 rack: r1)]",
+  "isr" : "[localhost:19092 (id: 2 rack: r2), localhost:19091 (id: 1 rack: r1)]"
+}, {
+  "Topic" : "_confluent-controlcenter-7-2-0-1-monitoring-trigger-event-rekey",
+  "partition" : "0",
+  "leader" : "localhost:19091 (id: 1 rack: r1)",
+  "replicas" : "[localhost:19091 (id: 1 rack: r1), localhost:19092 (id: 2 rack: r2)]",
+  "isr" : "[localhost:19092 (id: 2 rack: r2), localhost:19091 (id: 1 rack: r1)]"
+}, {
+  "Topic" : "_confluent-controlcenter-7-2-0-1-KSTREAM-OUTERTHIS-0000000105-store-repartition",
+  "partition" : "0",
+  "leader" : "localhost:19091 (id: 1 rack: r1)",
+  "replicas" : "[localhost:19091 (id: 1 rack: r1), localhost:19092 (id: 2 rack: r2)]",
+  "isr" : "[localhost:19092 (id: 2 rack: r2), localhost:19091 (id: 1 rack: r1)]"
+}, {
+  "Topic" : "_confluent-controlcenter-7-2-0-1-MonitoringVerifierStore-changelog",
+  "partition" : "0",
+  "leader" : "localhost:19092 (id: 2 rack: r2)",
+  "replicas" : "[localhost:19092 (id: 2 rack: r2), localhost:19091 (id: 1 rack: r1)]",
+  "isr" : "[localhost:19092 (id: 2 rack: r2), localhost:19091 (id: 1 rack: r1)]"
+}, {
+  "Topic" : "wikipedia.parsed.count-by-domain",
+  "partition" : "1",
+  "leader" : "localhost:19091 (id: 1 rack: r1)",
+  "replicas" : "[localhost:19091 (id: 1 rack: r1), localhost:19092 (id: 2 rack: r2)]",
+  "isr" : "[localhost:19092 (id: 2 rack: r2), localhost:19091 (id: 1 rack: r1)]"
+}, {
+  "Topic" : "_confluent-controlcenter-7-2-0-1-MonitoringStream-THREE_HOURS-repartition",
+  "partition" : "0",
+  "leader" : "localhost:19092 (id: 2 rack: r2)",
+  "replicas" : "[localhost:19092 (id: 2 rack: r2), localhost:19091 (id: 1 rack: r1)]",
+  "isr" : "[localhost:19092 (id: 2 rack: r2), localhost:19091 (id: 1 rack: r1)]"
+}, {
+  "Topic" : "_confluent-controlcenter-7-2-0-1-MonitoringStream-THREE_HOURS-changelog",
+  "partition" : "0",
+  "leader" : "localhost:19092 (id: 2 rack: r2)",
+  "replicas" : "[localhost:19092 (id: 2 rack: r2), localhost:19091 (id: 1 rack: r1)]",
+  "isr" : "[localhost:19092 (id: 2 rack: r2), localhost:19091 (id: 1 rack: r1)]"
+}, {
+  "Topic" : "_confluent-controlcenter-7-2-0-1-MonitoringMessageAggregatorWindows-ONE_MINUTE-changelog",
+  "partition" : "0",
+  "leader" : "localhost:19091 (id: 1 rack: r1)",
+  "replicas" : "[localhost:19091 (id: 1 rack: r1), localhost:19092 (id: 2 rack: r2)]",
+  "isr" : "[localhost:19092 (id: 2 rack: r2), localhost:19091 (id: 1 rack: r1)]"
+}, {
+  "Topic" : "_confluent-controlcenter-7-2-0-1-Group-ONE_MINUTE-repartition",
+  "partition" : "0",
+  "leader" : "localhost:19092 (id: 2 rack: r2)",
+  "replicas" : "[localhost:19092 (id: 2 rack: r2), localhost:19091 (id: 1 rack: r1)]",
+  "isr" : "[localhost:19092 (id: 2 rack: r2), localhost:19091 (id: 1 rack: r1)]"
+}, {
+  "Topic" : "_confluent-controlcenter-7-2-0-1-aggregate-topic-partition-store-changelog",
+  "partition" : "0",
+  "leader" : "localhost:19092 (id: 2 rack: r2)",
+  "replicas" : "[localhost:19092 (id: 2 rack: r2), localhost:19091 (id: 1 rack: r1)]",
+  "isr" : "[localhost:19092 (id: 2 rack: r2), localhost:19091 (id: 1 rack: r1)]"
+}, {
+  "Topic" : "_confluent-controlcenter-7-2-0-1-Group-THREE_HOURS-changelog",
+  "partition" : "0",
+  "leader" : "localhost:19092 (id: 2 rack: r2)",
+  "replicas" : "[localhost:19092 (id: 2 rack: r2), localhost:19091 (id: 1 rack: r1)]",
+  "isr" : "[localhost:19092 (id: 2 rack: r2), localhost:19091 (id: 1 rack: r1)]"
+}, {
+  "Topic" : "_confluent-metrics",
+  "partition" : "11",
+  "leader" : "localhost:19092 (id: 2 rack: r2)",
+  "replicas" : "[localhost:19092 (id: 2 rack: r2), localhost:19091 (id: 1 rack: r1)]",
+  "isr" : "[localhost:19092 (id: 2 rack: r2), localhost:19091 (id: 1 rack: r1)]"
+}, {
+  "Topic" : "_confluent-controlcenter-7-2-0-1-aggregatedTopicPartitionTableWindows-THREE_HOURS-repartition",
+  "partition" : "0",
+  "leader" : "localhost:19091 (id: 1 rack: r1)",
+  "replicas" : "[localhost:19091 (id: 1 rack: r1), localhost:19092 (id: 2 rack: r2)]",
+  "isr" : "[localhost:19092 (id: 2 rack: r2), localhost:19091 (id: 1 rack: r1)]"
+}, {
+  "Topic" : "_confluent-controlcenter-7-2-0-1-group-aggregate-store-ONE_MINUTE-repartition",
+  "partition" : "0",
+  "leader" : "localhost:19091 (id: 1 rack: r1)",
+  "replicas" : "[localhost:19091 (id: 1 rack: r1), localhost:19092 (id: 2 rack: r2)]",
+  "isr" : "[localhost:19092 (id: 2 rack: r2), localhost:19091 (id: 1 rack: r1)]"
+}, {
+  "Topic" : "_confluent-controlcenter-7-2-0-1-KSTREAM-OUTEROTHER-0000000106-store-repartition",
+  "partition" : "0",
+  "leader" : "localhost:19092 (id: 2 rack: r2)",
+  "replicas" : "[localhost:19092 (id: 2 rack: r2), localhost:19091 (id: 1 rack: r1)]",
+  "isr" : "[localhost:19092 (id: 2 rack: r2), localhost:19091 (id: 1 rack: r1)]"
+}, {
+  "Topic" : "test",
+  "partition" : "0",
+  "leader" : "localhost:19091 (id: 1 rack: r1)",
+  "replicas" : "[localhost:19091 (id: 1 rack: r1)]",
+  "isr" : "[localhost:19091 (id: 1 rack: r1)]"
+}, {
+  "Topic" : "_confluent-metadata-auth",
+  "partition" : "5",
+  "leader" : "localhost:19091 (id: 1 rack: r1)",
+  "replicas" : "[localhost:19091 (id: 1 rack: r1), localhost:19092 (id: 2 rack: r2)]",
+  "isr" : "[localhost:19092 (id: 2 rack: r2), localhost:19091 (id: 1 rack: r1)]"
+}, {
+  "Topic" : "_confluent-controlcenter-7-2-0-1-MonitoringTriggerStore-changelog",
+  "partition" : "0",
+  "leader" : "localhost:19092 (id: 2 rack: r2)",
+  "replicas" : "[localhost:19092 (id: 2 rack: r2), localhost:19091 (id: 1 rack: r1)]",
+  "isr" : "[localhost:19092 (id: 2 rack: r2), localhost:19091 (id: 1 rack: r1)]"
+}, {
+  "Topic" : "_confluent-controlcenter-7-2-0-1-MonitoringMessageAggregatorWindows-ONE_MINUTE-repartition",
+  "partition" : "0",
+  "leader" : "localhost:19091 (id: 1 rack: r1)",
+  "replicas" : "[localhost:19091 (id: 1 rack: r1), localhost:19092 (id: 2 rack: r2)]",
+  "isr" : "[localhost:19092 (id: 2 rack: r2), localhost:19091 (id: 1 rack: r1)]"
+}, {
+  "Topic" : "_confluent-controlcenter-7-2-0-1-MonitoringStream-ONE_MINUTE-changelog",
+  "partition" : "0",
+  "leader" : "localhost:19091 (id: 1 rack: r1)",
+  "replicas" : "[localhost:19091 (id: 1 rack: r1), localhost:19092 (id: 2 rack: r2)]",
+  "isr" : "[localhost:19092 (id: 2 rack: r2), localhost:19091 (id: 1 rack: r1)]"
+}, {
+  "Topic" : "_confluent-command",
+  "partition" : "0",
+  "leader" : "localhost:19092 (id: 2 rack: r2)",
+  "replicas" : "[localhost:19092 (id: 2 rack: r2), localhost:19091 (id: 1 rack: r1)]",
+  "isr" : "[localhost:19092 (id: 2 rack: r2), localhost:19091 (id: 1 rack: r1)]"
+}, {
+  "Topic" : "_confluent-controlcenter-7-2-0-1-cluster-rekey",
+  "partition" : "0",
+  "leader" : "localhost:19091 (id: 1 rack: r1)",
+  "replicas" : "[localhost:19091 (id: 1 rack: r1), localhost:19092 (id: 2 rack: r2)]",
+  "isr" : "[localhost:19092 (id: 2 rack: r2), localhost:19091 (id: 1 rack: r1)]"
+}, {
+  "Topic" : "_confluent-controlcenter-7-2-0-1-actual-group-consumption-rekey",
+  "partition" : "0",
+  "leader" : "localhost:19091 (id: 1 rack: r1)",
+  "replicas" : "[localhost:19091 (id: 1 rack: r1), localhost:19092 (id: 2 rack: r2)]",
+  "isr" : "[localhost:19092 (id: 2 rack: r2), localhost:19091 (id: 1 rack: r1)]"
+}, {
+  "Topic" : "_confluent-controlcenter-7-2-0-1-monitoring-aggregate-rekey-store-changelog",
+  "partition" : "0",
+  "leader" : "localhost:19092 (id: 2 rack: r2)",
+  "replicas" : "[localhost:19092 (id: 2 rack: r2), localhost:19091 (id: 1 rack: r1)]",
+  "isr" : "[localhost:19092 (id: 2 rack: r2), localhost:19091 (id: 1 rack: r1)]"
+}, {
+  "Topic" : "_confluent-ksql-ksql-clusterquery_CTAS_WIKIPEDIA_COUNT_GT_1_7-Aggregate-Aggregate-Materialize-changelog",
+  "partition" : "1",
+  "leader" : "localhost:19092 (id: 2 rack: r2)",
+  "replicas" : "[localhost:19092 (id: 2 rack: r2), localhost:19091 (id: 1 rack: r1)]",
+  "isr" : "[localhost:19092 (id: 2 rack: r2), localhost:19091 (id: 1 rack: r1)]"
+}, {
+  "Topic" : "_confluent-controlcenter-7-2-0-1-monitoring-aggregate-rekey-store-repartition",
+  "partition" : "0",
+  "leader" : "localhost:19092 (id: 2 rack: r2)",
+  "replicas" : "[localhost:19092 (id: 2 rack: r2), localhost:19091 (id: 1 rack: r1)]",
+  "isr" : "[localhost:19092 (id: 2 rack: r2), localhost:19091 (id: 1 rack: r1)]"
+}, {
+  "Topic" : "_confluent-controlcenter-7-2-0-1-expected-group-consumption-rekey",
+  "partition" : "0",
+  "leader" : "localhost:19092 (id: 2 rack: r2)",
+  "replicas" : "[localhost:19092 (id: 2 rack: r2), localhost:19091 (id: 1 rack: r1)]",
+  "isr" : "[localhost:19092 (id: 2 rack: r2), localhost:19091 (id: 1 rack: r1)]"
+}, {
+  "Topic" : "tests",
+  "partition" : "0",
+  "leader" : "localhost:19092 (id: 2 rack: r2)",
+  "replicas" : "[localhost:19092 (id: 2 rack: r2)]",
+  "isr" : "[localhost:19092 (id: 2 rack: r2)]"
+}, {
+  "Topic" : "_confluent-controlcenter-7-2-0-1-Group-THREE_HOURS-repartition",
+  "partition" : "0",
+  "leader" : "localhost:19091 (id: 1 rack: r1)",
+  "replicas" : "[localhost:19091 (id: 1 rack: r1), localhost:19092 (id: 2 rack: r2)]",
+  "isr" : "[localhost:19092 (id: 2 rack: r2), localhost:19091 (id: 1 rack: r1)]"
+}, {
+  "Topic" : "connect-statuses",
+  "partition" : "4",
+  "leader" : "localhost:19091 (id: 1 rack: r1)",
+  "replicas" : "[localhost:19091 (id: 1 rack: r1), localhost:19092 (id: 2 rack: r2)]",
+  "isr" : "[localhost:19092 (id: 2 rack: r2), localhost:19091 (id: 1 rack: r1)]"
+}, {
+  "Topic" : "_confluent-controlcenter-7-2-0-1-MonitoringTriggerStore-repartition",
+  "partition" : "0",
+  "leader" : "localhost:19092 (id: 2 rack: r2)",
+  "replicas" : "[localhost:19092 (id: 2 rack: r2), localhost:19091 (id: 1 rack: r1)]",
+  "isr" : "[localhost:19092 (id: 2 rack: r2), localhost:19091 (id: 1 rack: r1)]"
+}, {
+  "Topic" : "_confluent-controlcenter-7-2-0-1-MetricsAggregateStore-changelog",
+  "partition" : "0",
+  "leader" : "localhost:19091 (id: 1 rack: r1)",
+  "replicas" : "[localhost:19091 (id: 1 rack: r1), localhost:19092 (id: 2 rack: r2)]",
+  "isr" : "[localhost:19092 (id: 2 rack: r2), localhost:19091 (id: 1 rack: r1)]"
+}, {
+  "Topic" : "WIKIPEDIANOBOT",
+  "partition" : "1",
+  "leader" : "localhost:19091 (id: 1 rack: r1)",
+  "replicas" : "[localhost:19091 (id: 1 rack: r1), localhost:19092 (id: 2 rack: r2)]",
+  "isr" : "[localhost:19092 (id: 2 rack: r2), localhost:19091 (id: 1 rack: r1)]"
+}, {
+  "Topic" : "_confluent-controlcenter-7-2-0-1-TriggerEventsStore-repartition",
+  "partition" : "0",
+  "leader" : "localhost:19092 (id: 2 rack: r2)",
+  "replicas" : "[localhost:19092 (id: 2 rack: r2), localhost:19091 (id: 1 rack: r1)]",
+  "isr" : "[localhost:19092 (id: 2 rack: r2), localhost:19091 (id: 1 rack: r1)]"
+}, {
+  "Topic" : "_confluent-controlcenter-7-2-0-1-group-stream-extension-rekey",
+  "partition" : "0",
+  "leader" : "localhost:19092 (id: 2 rack: r2)",
+  "replicas" : "[localhost:19092 (id: 2 rack: r2), localhost:19091 (id: 1 rack: r1)]",
+  "isr" : "[localhost:19092 (id: 2 rack: r2), localhost:19091 (id: 1 rack: r1)]"
+}, {
+  "Topic" : "_confluent-controlcenter-7-2-0-1-Group-ONE_MINUTE-changelog",
+  "partition" : "0",
+  "leader" : "localhost:19091 (id: 1 rack: r1)",
+  "replicas" : "[localhost:19091 (id: 1 rack: r1), localhost:19092 (id: 2 rack: r2)]",
+  "isr" : "[localhost:19092 (id: 2 rack: r2), localhost:19091 (id: 1 rack: r1)]"
+}, {
+  "Topic" : "_confluent-controlcenter-7-2-0-1-group-aggregate-store-THREE_HOURS-changelog",
+  "partition" : "0",
+  "leader" : "localhost:19091 (id: 1 rack: r1)",
+  "replicas" : "[localhost:19091 (id: 1 rack: r1), localhost:19092 (id: 2 rack: r2)]",
+  "isr" : "[localhost:19092 (id: 2 rack: r2), localhost:19091 (id: 1 rack: r1)]"
+}, {
+  "Topic" : "_confluent-controlcenter-7-2-0-1-metrics-trigger-measurement-rekey",
+  "partition" : "0",
+  "leader" : "localhost:19092 (id: 2 rack: r2)",
+  "replicas" : "[localhost:19092 (id: 2 rack: r2), localhost:19091 (id: 1 rack: r1)]",
+  "isr" : "[localhost:19092 (id: 2 rack: r2), localhost:19091 (id: 1 rack: r1)]"
+}, {
+  "Topic" : "_confluent-controlcenter-7-2-0-1-monitoring-message-rekey-store",
+  "partition" : "0",
+  "leader" : "localhost:19091 (id: 1 rack: r1)",
+  "replicas" : "[localhost:19091 (id: 1 rack: r1), localhost:19092 (id: 2 rack: r2)]",
+  "isr" : "[localhost:19092 (id: 2 rack: r2), localhost:19091 (id: 1 rack: r1)]"
+}, {
+  "Topic" : "ksql-clusterksql_processing_log",
+  "partition" : "0",
+  "leader" : "localhost:19092 (id: 2 rack: r2)",
+  "replicas" : "[localhost:19092 (id: 2 rack: r2), localhost:19091 (id: 1 rack: r1)]",
+  "isr" : "[localhost:19092 (id: 2 rack: r2), localhost:19091 (id: 1 rack: r1)]"
+}, {
+  "Topic" : "_exporter_states",
+  "partition" : "0",
+  "leader" : "localhost:19091 (id: 1 rack: r1)",
+  "replicas" : "[localhost:19091 (id: 1 rack: r1), localhost:19092 (id: 2 rack: r2)]",
+  "isr" : "[localhost:19092 (id: 2 rack: r2), localhost:19091 (id: 1 rack: r1)]"
+}, {
+  "Topic" : "_confluent-controlcenter-7-2-0-1-group-aggregate-store-THREE_HOURS-repartition",
+  "partition" : "0",
+  "leader" : "localhost:19092 (id: 2 rack: r2)",
+  "replicas" : "[localhost:19092 (id: 2 rack: r2), localhost:19091 (id: 1 rack: r1)]",
+  "isr" : "[localhost:19092 (id: 2 rack: r2), localhost:19091 (id: 1 rack: r1)]"
+}, {
+  "Topic" : "_confluent-controlcenter-7-2-0-1-aggregate-topic-partition-store-repartition",
+  "partition" : "0",
+  "leader" : "localhost:19091 (id: 1 rack: r1)",
+  "replicas" : "[localhost:19091 (id: 1 rack: r1), localhost:19092 (id: 2 rack: r2)]",
+  "isr" : "[localhost:19092 (id: 2 rack: r2), localhost:19091 (id: 1 rack: r1)]"
+}, {
+  "Topic" : "connect-offsets",
+  "partition" : "24",
+  "leader" : "localhost:19091 (id: 1 rack: r1)",
+  "replicas" : "[localhost:19091 (id: 1 rack: r1), localhost:19092 (id: 2 rack: r2)]",
+  "isr" : "[localhost:19092 (id: 2 rack: r2), localhost:19091 (id: 1 rack: r1)]"
+}, {
+  "Topic" : "_exporter_configs",
+  "partition" : "0",
+  "leader" : "localhost:19092 (id: 2 rack: r2)",
+  "replicas" : "[localhost:19092 (id: 2 rack: r2), localhost:19091 (id: 1 rack: r1)]",
+  "isr" : "[localhost:19092 (id: 2 rack: r2), localhost:19091 (id: 1 rack: r1)]"
+}, {
+  "Topic" : "_confluent-controlcenter-7-2-0-1-TriggerEventsStore-changelog",
+  "partition" : "0",
+  "leader" : "localhost:19091 (id: 1 rack: r1)",
+  "replicas" : "[localhost:19091 (id: 1 rack: r1), localhost:19092 (id: 2 rack: r2)]",
+  "isr" : "[localhost:19092 (id: 2 rack: r2), localhost:19091 (id: 1 rack: r1)]"
+}, {
+  "Topic" : "_confluent-controlcenter-7-2-0-1-group-aggregate-store-ONE_MINUTE-changelog",
+  "partition" : "0",
+  "leader" : "localhost:19092 (id: 2 rack: r2)",
+  "replicas" : "[localhost:19092 (id: 2 rack: r2), localhost:19091 (id: 1 rack: r1)]",
+  "isr" : "[localhost:19092 (id: 2 rack: r2), localhost:19091 (id: 1 rack: r1)]"
+}, {
+  "Topic" : "_confluent-controlcenter-7-2-0-1-MonitoringMessageAggregatorWindows-THREE_HOURS-repartition",
+  "partition" : "0",
+  "leader" : "localhost:19092 (id: 2 rack: r2)",
+  "replicas" : "[localhost:19092 (id: 2 rack: r2), localhost:19091 (id: 1 rack: r1)]",
+  "isr" : "[localhost:19092 (id: 2 rack: r2), localhost:19091 (id: 1 rack: r1)]"
+}, {
+  "Topic" : "_confluent-controlcenter-7-2-0-1-AlertHistoryStore-changelog",
+  "partition" : "0",
+  "leader" : "localhost:19091 (id: 1 rack: r1)",
+  "replicas" : "[localhost:19091 (id: 1 rack: r1), localhost:19092 (id: 2 rack: r2)]",
+  "isr" : "[localhost:19092 (id: 2 rack: r2), localhost:19091 (id: 1 rack: r1)]"
+}, {
+  "Topic" : "_confluent_balancer_api_state",
+  "partition" : "0",
+  "leader" : "localhost:19092 (id: 2 rack: r2)",
+  "replicas" : "[localhost:19092 (id: 2 rack: r2), localhost:19091 (id: 1 rack: r1)]",
+  "isr" : "[localhost:19092 (id: 2 rack: r2), localhost:19091 (id: 1 rack: r1)]"
+}, {
+  "Topic" : "_confluent_balancer_broker_samples",
+  "partition" : "31",
+  "leader" : "localhost:19091 (id: 1 rack: r1)",
+  "replicas" : "[localhost:19091 (id: 1 rack: r1), localhost:19092 (id: 2 rack: r2)]",
+  "isr" : "[localhost:19092 (id: 2 rack: r2), localhost:19091 (id: 1 rack: r1)]"
+}, {
+  "Topic" : "_confluent-controlcenter-7-2-0-1-aggregatedTopicPartitionTableWindows-ONE_MINUTE-repartition",
+  "partition" : "0",
+  "leader" : "localhost:19091 (id: 1 rack: r1)",
+  "replicas" : "[localhost:19091 (id: 1 rack: r1), localhost:19092 (id: 2 rack: r2)]",
+  "isr" : "[localhost:19092 (id: 2 rack: r2), localhost:19091 (id: 1 rack: r1)]"
+}, {
+  "Topic" : "_confluent-controlcenter-7-2-0-1-TriggerActionsStore-changelog",
+  "partition" : "0",
+  "leader" : "localhost:19091 (id: 1 rack: r1)",
+  "replicas" : "[localhost:19091 (id: 1 rack: r1), localhost:19092 (id: 2 rack: r2)]",
+  "isr" : "[localhost:19092 (id: 2 rack: r2), localhost:19091 (id: 1 rack: r1)]"
+}, {
+  "Topic" : "_confluent-controlcenter-7-2-0-1-MetricsAggregateStore-repartition",
+  "partition" : "0",
+  "leader" : "localhost:19091 (id: 1 rack: r1)",
+  "replicas" : "[localhost:19091 (id: 1 rack: r1), localhost:19092 (id: 2 rack: r2)]",
+  "isr" : "[localhost:19092 (id: 2 rack: r2), localhost:19091 (id: 1 rack: r1)]"
+}, {
+  "Topic" : "_confluent-controlcenter-7-2-0-1-aggregatedTopicPartitionTableWindows-THREE_HOURS-changelog",
+  "partition" : "0",
+  "leader" : "localhost:19091 (id: 1 rack: r1)",
+  "replicas" : "[localhost:19091 (id: 1 rack: r1), localhost:19092 (id: 2 rack: r2)]",
+  "isr" : "[localhost:19092 (id: 2 rack: r2), localhost:19091 (id: 1 rack: r1)]"
+}, {
+  "Topic" : "_confluent-ksql-ksql-clusterquery_CTAS_WIKIPEDIA_COUNT_GT_1_7-Aggregate-GroupBy-repartition",
+  "partition" : "1",
+  "leader" : "localhost:19092 (id: 2 rack: r2)",
+  "replicas" : "[localhost:19092 (id: 2 rack: r2), localhost:19091 (id: 1 rack: r1)]",
+  "isr" : "[localhost:19092 (id: 2 rack: r2), localhost:19091 (id: 1 rack: r1)]"
+}, {
+  "Topic" : "_confluent-controlcenter-7-2-0-1-aggregatedTopicPartitionTableWindows-ONE_MINUTE-changelog",
+  "partition" : "0",
+  "leader" : "localhost:19092 (id: 2 rack: r2)",
+  "replicas" : "[localhost:19092 (id: 2 rack: r2), localhost:19091 (id: 1 rack: r1)]",
+  "isr" : "[localhost:19092 (id: 2 rack: r2), localhost:19091 (id: 1 rack: r1)]"
+}, {
+  "Topic" : "_confluent-controlcenter-7-2-0-1-KSTREAM-OUTERTHIS-0000000105-store-changelog",
+  "partition" : "0",
+  "leader" : "localhost:19092 (id: 2 rack: r2)",
+  "replicas" : "[localhost:19092 (id: 2 rack: r2), localhost:19091 (id: 1 rack: r1)]",
+  "isr" : "[localhost:19092 (id: 2 rack: r2), localhost:19091 (id: 1 rack: r1)]"
+}, {
+  "Topic" : "wikipedia.parsed",
+  "partition" : "1",
+  "leader" : "localhost:19092 (id: 2 rack: r2)",
+  "replicas" : "[localhost:19092 (id: 2 rack: r2), localhost:19091 (id: 1 rack: r1)]",
+  "isr" : "[localhost:19092 (id: 2 rack: r2), localhost:19091 (id: 1 rack: r1)]"
+}, {
+  "Topic" : "_schemas",
+  "partition" : "0",
+  "leader" : "localhost:19091 (id: 1 rack: r1)",
+  "replicas" : "[localhost:19091 (id: 1 rack: r1), localhost:19092 (id: 2 rack: r2)]",
+  "isr" : "[localhost:19092 (id: 2 rack: r2), localhost:19091 (id: 1 rack: r1)]"
+}, {
+  "Topic" : "confluent-audit-log-events",
+  "partition" : "11",
+  "leader" : "localhost:19092 (id: 2 rack: r2)",
+  "replicas" : "[localhost:19092 (id: 2 rack: r2), localhost:19091 (id: 1 rack: r1)]",
+  "isr" : "[localhost:19092 (id: 2 rack: r2), localhost:19091 (id: 1 rack: r1)]"
+}, {
+  "Topic" : "WIKIPEDIA_COUNT_GT_1",
+  "partition" : "1",
+  "leader" : "localhost:19092 (id: 2 rack: r2)",
+  "replicas" : "[localhost:19092 (id: 2 rack: r2), localhost:19091 (id: 1 rack: r1)]",
+  "isr" : "[localhost:19092 (id: 2 rack: r2), localhost:19091 (id: 1 rack: r1)]"
+}, {
+  "Topic" : "_confluent-controlcenter-7-2-0-1-MonitoringMessageAggregatorWindows-THREE_HOURS-changelog",
+  "partition" : "0",
+  "leader" : "localhost:19092 (id: 2 rack: r2)",
+  "replicas" : "[localhost:19092 (id: 2 rack: r2), localhost:19091 (id: 1 rack: r1)]",
+  "isr" : "[localhost:19092 (id: 2 rack: r2), localhost:19091 (id: 1 rack: r1)]"
+}, {
+  "Topic" : "_confluent-secrets",
+  "partition" : "0",
+  "leader" : "localhost:19092 (id: 2 rack: r2)",
+  "replicas" : "[localhost:19092 (id: 2 rack: r2), localhost:19091 (id: 1 rack: r1)]",
+  "isr" : "[localhost:19092 (id: 2 rack: r2), localhost:19091 (id: 1 rack: r1)]"
+}, {
+  "Topic" : "_confluent-ksql-ksql-cluster_command_topic",
+  "partition" : "0",
+  "leader" : "localhost:19091 (id: 1 rack: r1)",
+  "replicas" : "[localhost:19091 (id: 1 rack: r1), localhost:19092 (id: 2 rack: r2)]",
+  "isr" : "[localhost:19092 (id: 2 rack: r2), localhost:19091 (id: 1 rack: r1)]"
+}, {
+  "Topic" : "_confluent_balancer_partition_samples",
+  "partition" : "31",
+  "leader" : "localhost:19092 (id: 2 rack: r2)",
+  "replicas" : "[localhost:19092 (id: 2 rack: r2), localhost:19091 (id: 1 rack: r1)]",
+  "isr" : "[localhost:19092 (id: 2 rack: r2), localhost:19091 (id: 1 rack: r1)]"
+}, {
+  "Topic" : "wikipedia.failed",
+  "partition" : "1",
+  "leader" : "localhost:19092 (id: 2 rack: r2)",
+  "replicas" : "[localhost:19092 (id: 2 rack: r2), localhost:19091 (id: 1 rack: r1)]",
+  "isr" : "[localhost:19092 (id: 2 rack: r2), localhost:19091 (id: 1 rack: r1)]"
+}, {
+  "Topic" : "_confluent-controlcenter-7-2-0-1-MonitoringStream-ONE_MINUTE-repartition",
+  "partition" : "0",
+  "leader" : "localhost:19092 (id: 2 rack: r2)",
+  "replicas" : "[localhost:19092 (id: 2 rack: r2), localhost:19091 (id: 1 rack: r1)]",
+  "isr" : "[localhost:19092 (id: 2 rack: r2), localhost:19091 (id: 1 rack: r1)]"
+}, {
+  "Topic" : "_confluent-controlcenter-7-2-0-1-AlertHistoryStore-repartition",
+  "partition" : "0",
+  "leader" : "localhost:19091 (id: 1 rack: r1)",
+  "replicas" : "[localhost:19091 (id: 1 rack: r1), localhost:19092 (id: 2 rack: r2)]",
+  "isr" : "[localhost:19092 (id: 2 rack: r2), localhost:19091 (id: 1 rack: r1)]"
+}, {
+  "Topic" : "_confluent-monitoring",
+  "partition" : "0",
+  "leader" : "localhost:19092 (id: 2 rack: r2)",
+  "replicas" : "[localhost:19092 (id: 2 rack: r2), localhost:19091 (id: 1 rack: r1)]",
+  "isr" : "[localhost:19092 (id: 2 rack: r2), localhost:19091 (id: 1 rack: r1)]"
+}, {
+  "Topic" : "_confluent-controlcenter-7-2-0-1-MonitoringVerifierStore-repartition",
+  "partition" : "0",
+  "leader" : "localhost:19091 (id: 1 rack: r1)",
+  "replicas" : "[localhost:19091 (id: 1 rack: r1), localhost:19092 (id: 2 rack: r2)]",
+  "isr" : "[localhost:19092 (id: 2 rack: r2), localhost:19091 (id: 1 rack: r1)]"
+}, {
+  "Topic" : "_confluent-controlcenter-7-2-0-1-TriggerActionsStore-repartition",
+  "partition" : "0",
+  "leader" : "localhost:19091 (id: 1 rack: r1)",
+  "replicas" : "[localhost:19091 (id: 1 rack: r1), localhost:19092 (id: 2 rack: r2)]",
+  "isr" : "[localhost:19092 (id: 2 rack: r2), localhost:19091 (id: 1 rack: r1)]"
+}, {
+  "Topic" : "_confluent-telemetry-metrics",
+  "partition" : "11",
+  "leader" : "localhost:19092 (id: 2 rack: r2)",
+  "replicas" : "[localhost:19092 (id: 2 rack: r2), localhost:19091 (id: 1 rack: r1)]",
+  "isr" : "[localhost:19092 (id: 2 rack: r2), localhost:19091 (id: 1 rack: r1)]"
+}, {
+  "Topic" : "_confluent-controlcenter-7-2-0-1-KSTREAM-OUTEROTHER-0000000106-store-changelog",
+  "partition" : "0",
+  "leader" : "localhost:19091 (id: 1 rack: r1)",
+  "replicas" : "[localhost:19091 (id: 1 rack: r1), localhost:19092 (id: 2 rack: r2)]",
+  "isr" : "[localhost:19092 (id: 2 rack: r2), localhost:19091 (id: 1 rack: r1)]"
+} ]

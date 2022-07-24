@@ -1,0 +1,11 @@
+[ {
+  "BROKER" : "1",
+  "host" : "localhost",
+  "id" : "1",
+  "rack" : "true"
+}, {
+  "BROKER" : "2",
+  "host" : "localhost",
+  "id" : "2",
+  "rack" : "true"
+} ]

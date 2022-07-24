@@ -1,0 +1,301 @@
+[ {
+  "name" : "connect-configs",
+  "id" : "Ay4iHOA9S_OpR3Y7AkOLlw",
+  "internal" : "false"
+}, {
+  "name" : "WIKIPEDIABOT",
+  "id" : "Vm6IexTBRtOWYZTUlg1Y4w",
+  "internal" : "false"
+}, {
+  "name" : "_confluent-controlcenter-7-2-0-1-monitoring-trigger-event-rekey",
+  "id" : "2vcm8P7yRgGesRVr-0-M5w",
+  "internal" : "false"
+}, {
+  "name" : "_confluent-controlcenter-7-2-0-1-KSTREAM-OUTERTHIS-0000000105-store-repartition",
+  "id" : "kpmCUg4WQt69w1KoOKT06g",
+  "internal" : "false"
+}, {
+  "name" : "_confluent-controlcenter-7-2-0-1-MonitoringVerifierStore-changelog",
+  "id" : "nu27FzgrQl-s5qN00tybfA",
+  "internal" : "false"
+}, {
+  "name" : "wikipedia.parsed.count-by-domain",
+  "id" : "uraAR-lyScyQ5cRmbzLKvg",
+  "internal" : "false"
+}, {
+  "name" : "_confluent-controlcenter-7-2-0-1-MonitoringStream-THREE_HOURS-repartition",
+  "id" : "8hIEyjFwQs-FX_Nlfd9CgQ",
+  "internal" : "false"
+}, {
+  "name" : "_confluent-controlcenter-7-2-0-1-MonitoringStream-THREE_HOURS-changelog",
+  "id" : "NUZ7z_AyS92638uogiZPuw",
+  "internal" : "false"
+}, {
+  "name" : "_confluent-controlcenter-7-2-0-1-MonitoringMessageAggregatorWindows-ONE_MINUTE-changelog",
+  "id" : "TahoGvTsRyWYSiP9vZO9Rg",
+  "internal" : "false"
+}, {
+  "name" : "_confluent-controlcenter-7-2-0-1-Group-ONE_MINUTE-repartition",
+  "id" : "42VlBP7cSMC3XLnDQecrVQ",
+  "internal" : "false"
+}, {
+  "name" : "_confluent-controlcenter-7-2-0-1-aggregate-topic-partition-store-changelog",
+  "id" : "Kf-8Bwd8Qm2CqXJ7KkwWbQ",
+  "internal" : "false"
+}, {
+  "name" : "_confluent-controlcenter-7-2-0-1-Group-THREE_HOURS-changelog",
+  "id" : "Ws3OnABHSeSKixI576PCoA",
+  "internal" : "false"
+}, {
+  "name" : "_confluent-metrics",
+  "id" : "4bAzUwGwTdi73fW6fAhTug",
+  "internal" : "false"
+}, {
+  "name" : "_confluent-controlcenter-7-2-0-1-aggregatedTopicPartitionTableWindows-THREE_HOURS-repartition",
+  "id" : "rCxoSzC2THigimgfJVVHPg",
+  "internal" : "false"
+}, {
+  "name" : "_confluent-controlcenter-7-2-0-1-group-aggregate-store-ONE_MINUTE-repartition",
+  "id" : "coq0rWjhQmGI39AzqYRzwg",
+  "internal" : "false"
+}, {
+  "name" : "_confluent-controlcenter-7-2-0-1-KSTREAM-OUTEROTHER-0000000106-store-repartition",
+  "id" : "RmYr8nlHT1ml49Ewf97cHQ",
+  "internal" : "false"
+}, {
+  "name" : "test",
+  "id" : "vY4U7VOtTTuZ1lnkXxFfyw",
+  "internal" : "false"
+}, {
+  "name" : "_confluent-metadata-auth",
+  "id" : "5p22Vrw8QO2mxWpJMu_Cww",
+  "internal" : "false"
+}, {
+  "name" : "_confluent-controlcenter-7-2-0-1-MonitoringTriggerStore-changelog",
+  "id" : "hXdUpsnBTiePJh7GL6MGgA",
+  "internal" : "false"
+}, {
+  "name" : "_confluent-controlcenter-7-2-0-1-MonitoringMessageAggregatorWindows-ONE_MINUTE-repartition",
+  "id" : "3jkRuUKzTsOlOMC1NYL_Jg",
+  "internal" : "false"
+}, {
+  "name" : "_confluent-controlcenter-7-2-0-1-MonitoringStream-ONE_MINUTE-changelog",
+  "id" : "vxZcSxlUSO2t6sVGZshgrA",
+  "internal" : "false"
+}, {
+  "name" : "_confluent-command",
+  "id" : "tvfXjw0uTfyeElNtJByHZg",
+  "internal" : "false"
+}, {
+  "name" : "_confluent-controlcenter-7-2-0-1-cluster-rekey",
+  "id" : "D0KI_kdHT3iXVwrqWMwNHg",
+  "internal" : "false"
+}, {
+  "name" : "_confluent-controlcenter-7-2-0-1-actual-group-consumption-rekey",
+  "id" : "iF7GkvYMShOSfqcUaAzrVw",
+  "internal" : "false"
+}, {
+  "name" : "_confluent-controlcenter-7-2-0-1-monitoring-aggregate-rekey-store-changelog",
+  "id" : "vZi0GM1USASo-syI7Y6GwQ",
+  "internal" : "false"
+}, {
+  "name" : "_confluent-ksql-ksql-clusterquery_CTAS_WIKIPEDIA_COUNT_GT_1_7-Aggregate-Aggregate-Materialize-changelog",
+  "id" : "GBWJ6rv3RMG-14dG2EqZGg",
+  "internal" : "false"
+}, {
+  "name" : "_confluent-controlcenter-7-2-0-1-monitoring-aggregate-rekey-store-repartition",
+  "id" : "ujkQtfU-RB2Ewns4tcYJkw",
+  "internal" : "false"
+}, {
+  "name" : "_confluent-controlcenter-7-2-0-1-expected-group-consumption-rekey",
+  "id" : "sfMfbcwMTZGQFuOMQiseFA",
+  "internal" : "false"
+}, {
+  "name" : "tests",
+  "id" : "j0AU7BXgRWCS_6rKeAHA-Q",
+  "internal" : "false"
+}, {
+  "name" : "_confluent-controlcenter-7-2-0-1-Group-THREE_HOURS-repartition",
+  "id" : "ICl1p1ZFTwCUQ0TzFkJ_FQ",
+  "internal" : "false"
+}, {
+  "name" : "connect-statuses",
+  "id" : "ukphcoQmQDK-FLwgyqHVNw",
+  "internal" : "false"
+}, {
+  "name" : "_confluent-controlcenter-7-2-0-1-MonitoringTriggerStore-repartition",
+  "id" : "al3U8oDiQXuN15IgxAdNpg",
+  "internal" : "false"
+}, {
+  "name" : "_confluent-controlcenter-7-2-0-1-MetricsAggregateStore-changelog",
+  "id" : "7PwMU5nAQN2Uw5wjOVcbLA",
+  "internal" : "false"
+}, {
+  "name" : "WIKIPEDIANOBOT",
+  "id" : "XgA24h9URmW6pkpJOHXvsw",
+  "internal" : "false"
+}, {
+  "name" : "_confluent-controlcenter-7-2-0-1-TriggerEventsStore-repartition",
+  "id" : "NKLx-SzNRDWI4zSd4uFYZA",
+  "internal" : "false"
+}, {
+  "name" : "_confluent-controlcenter-7-2-0-1-group-stream-extension-rekey",
+  "id" : "pGGtJa9_Q9uVVPuyw25E4Q",
+  "internal" : "false"
+}, {
+  "name" : "_confluent-controlcenter-7-2-0-1-Group-ONE_MINUTE-changelog",
+  "id" : "LUPD5X51S6aEW0rOi6h2vw",
+  "internal" : "false"
+}, {
+  "name" : "_confluent-controlcenter-7-2-0-1-group-aggregate-store-THREE_HOURS-changelog",
+  "id" : "7--LkAxmTOSW6E9lwpWBsA",
+  "internal" : "false"
+}, {
+  "name" : "_confluent-controlcenter-7-2-0-1-metrics-trigger-measurement-rekey",
+  "id" : "RsQPJzTISUu0DLJWNBo-tg",
+  "internal" : "false"
+}, {
+  "name" : "_confluent-controlcenter-7-2-0-1-monitoring-message-rekey-store",
+  "id" : "qAOswHfNRW-7TN097oa3Wg",
+  "internal" : "false"
+}, {
+  "name" : "ksql-clusterksql_processing_log",
+  "id" : "lGOEaXF4TFqw8hKqTLHYwg",
+  "internal" : "false"
+}, {
+  "name" : "_exporter_states",
+  "id" : "4zXiSyW1QlGU7JEgr_Pxhg",
+  "internal" : "false"
+}, {
+  "name" : "_confluent-controlcenter-7-2-0-1-group-aggregate-store-THREE_HOURS-repartition",
+  "id" : "_rMYXZ1-T3OpyQauzDHn2w",
+  "internal" : "false"
+}, {
+  "name" : "_confluent-controlcenter-7-2-0-1-aggregate-topic-partition-store-repartition",
+  "id" : "XFZBArY7Swqknr2el0lg9A",
+  "internal" : "false"
+}, {
+  "name" : "connect-offsets",
+  "id" : "kayFCSWZRvOIKDpQTzt4bg",
+  "internal" : "false"
+}, {
+  "name" : "_exporter_configs",
+  "id" : "AwST2r50RaW6y3BARmcbbA",
+  "internal" : "false"
+}, {
+  "name" : "_confluent-controlcenter-7-2-0-1-TriggerEventsStore-changelog",
+  "id" : "kcuQSLUuSv28J-PE2OfzlA",
+  "internal" : "false"
+}, {
+  "name" : "_confluent-controlcenter-7-2-0-1-group-aggregate-store-ONE_MINUTE-changelog",
+  "id" : "RQlz8kndQeCzppUa7U6mZw",
+  "internal" : "false"
+}, {
+  "name" : "_confluent-controlcenter-7-2-0-1-MonitoringMessageAggregatorWindows-THREE_HOURS-repartition",
+  "id" : "UqSSe3ZSQl6IwmF5mkmlrw",
+  "internal" : "false"
+}, {
+  "name" : "_confluent-controlcenter-7-2-0-1-AlertHistoryStore-changelog",
+  "id" : "AmUl4N2BQ1yAE_0ZxD4ncg",
+  "internal" : "false"
+}, {
+  "name" : "_confluent_balancer_api_state",
+  "id" : "eXnBRkcVRgyf8SCR6Ri2IQ",
+  "internal" : "false"
+}, {
+  "name" : "_confluent_balancer_broker_samples",
+  "id" : "WzZQ5zspQFOgfVI2Qig0oQ",
+  "internal" : "false"
+}, {
+  "name" : "_confluent-controlcenter-7-2-0-1-aggregatedTopicPartitionTableWindows-ONE_MINUTE-repartition",
+  "id" : "q9K-jiSMRO-CbC4axBmsqg",
+  "internal" : "false"
+}, {
+  "name" : "_confluent-controlcenter-7-2-0-1-TriggerActionsStore-changelog",
+  "id" : "q-db-wIXQ8KS-jHsHpC8bA",
+  "internal" : "false"
+}, {
+  "name" : "_confluent-controlcenter-7-2-0-1-MetricsAggregateStore-repartition",
+  "id" : "wog2ekyYS7WiAKczsHfV-g",
+  "internal" : "false"
+}, {
+  "name" : "_confluent-controlcenter-7-2-0-1-aggregatedTopicPartitionTableWindows-THREE_HOURS-changelog",
+  "id" : "2KtzaCRGSAKJ4tnIkBaTEA",
+  "internal" : "false"
+}, {
+  "name" : "_confluent-ksql-ksql-clusterquery_CTAS_WIKIPEDIA_COUNT_GT_1_7-Aggregate-GroupBy-repartition",
+  "id" : "ErDXvMtzStmR-g5cwLo4Qw",
+  "internal" : "false"
+}, {
+  "name" : "_confluent-controlcenter-7-2-0-1-aggregatedTopicPartitionTableWindows-ONE_MINUTE-changelog",
+  "id" : "PpLTzimBSfCpuBiEDODiXA",
+  "internal" : "false"
+}, {
+  "name" : "_confluent-controlcenter-7-2-0-1-KSTREAM-OUTERTHIS-0000000105-store-changelog",
+  "id" : "dzWnIUkEQeOfKQ4vQjSSbw",
+  "internal" : "false"
+}, {
+  "name" : "wikipedia.parsed",
+  "id" : "MsmCxVi-QJupdO0WISD5_A",
+  "internal" : "false"
+}, {
+  "name" : "_schemas",
+  "id" : "cSLUJ0gmQdSFN0ZhOXrr8A",
+  "internal" : "false"
+}, {
+  "name" : "confluent-audit-log-events",
+  "id" : "SPMQJy8vR6Gvgx94gr2QwA",
+  "internal" : "false"
+}, {
+  "name" : "WIKIPEDIA_COUNT_GT_1",
+  "id" : "TFpg6k5QRcaD3O2wXiXAUw",
+  "internal" : "false"
+}, {
+  "name" : "_confluent-controlcenter-7-2-0-1-MonitoringMessageAggregatorWindows-THREE_HOURS-changelog",
+  "id" : "HvluxG18Q1mAX-HckMp-pw",
+  "internal" : "false"
+}, {
+  "name" : "_confluent-secrets",
+  "id" : "mZ0Zij6AT9Sjlgdni1CIkA",
+  "internal" : "false"
+}, {
+  "name" : "_confluent-ksql-ksql-cluster_command_topic",
+  "id" : "PEAOFe87StKgrJmgHsuBcw",
+  "internal" : "false"
+}, {
+  "name" : "_confluent_balancer_partition_samples",
+  "id" : "qVWijlOoQ8eGMvzaUt-sJA",
+  "internal" : "false"
+}, {
+  "name" : "wikipedia.failed",
+  "id" : "r9R46w9FQJG0cwulW-z86A",
+  "internal" : "false"
+}, {
+  "name" : "_confluent-controlcenter-7-2-0-1-MonitoringStream-ONE_MINUTE-repartition",
+  "id" : "9UY7QUA7S2awp1IwG41oUQ",
+  "internal" : "false"
+}, {
+  "name" : "_confluent-controlcenter-7-2-0-1-AlertHistoryStore-repartition",
+  "id" : "E10rM3bOTrWWVkS1EeTBcg",
+  "internal" : "false"
+}, {
+  "name" : "_confluent-monitoring",
+  "id" : "TZbBazDJTS-Qxr7Rvj97SQ",
+  "internal" : "false"
+}, {
+  "name" : "_confluent-controlcenter-7-2-0-1-MonitoringVerifierStore-repartition",
+  "id" : "UwQkETW8ROGiX6xp2vu44w",
+  "internal" : "false"
+}, {
+  "name" : "_confluent-controlcenter-7-2-0-1-TriggerActionsStore-repartition",
+  "id" : "5IpuWgtETr2RDu6CWd6NJw",
+  "internal" : "false"
+}, {
+  "name" : "_confluent-telemetry-metrics",
+  "id" : "gtT7uuRLQQOjON_jVxCpUw",
+  "internal" : "false"
+}, {
+  "name" : "_confluent-controlcenter-7-2-0-1-KSTREAM-OUTEROTHER-0000000106-store-changelog",
+  "id" : "NNKcKNsFS2SLHqKokv51Dg",
+  "internal" : "false"
+} ]
